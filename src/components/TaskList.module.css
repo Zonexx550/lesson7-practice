@@ -1,0 +1,58 @@
+.container {
+  max-width: 600px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.title {
+  margin-bottom: 16px;
+}
+
+.form {
+  display: flex;
+  margin-bottom: 16px;
+}
+
+.input {
+  flex-grow: 1;
+  padding: 12px;
+  border-radius: 4px;
+}
+
+.buttonAdd {
+  margin-left: 8px;
+  padding: 8px 16px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 4px;
+  background-color: #000000;
+  color: white;
+}
+
+.list {
+  list-style: none;
+  padding-left: 0;
+}
+
+.listItem {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 8px;
+  padding: 8px;
+  background-color: rgb(241, 241, 241);
+  border-left: 4px solid green;
+  border-radius: 4px;
+}
+
+.buttonDelete {
+  background-color: red;
+  border: none;
+  color: white;
+  padding: 6px 12px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.emptyMessage {
+  color: grey;
+}
