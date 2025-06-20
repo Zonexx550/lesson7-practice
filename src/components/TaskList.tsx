@@ -57,7 +57,7 @@ export function TaskList() {
                 type="button"
               >
                 Удалить
-              </button>
+              </button> 
             </li>
           ))}
         </ul>
